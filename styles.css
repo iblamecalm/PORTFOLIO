@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('computer-5903052.jpg'); /* Background for entire site */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #e4e4e4; /* Light text for readability */
+}
+
+/* Header */
+header {
+  background-image: url('editing-1141505.jpg'); /* Background for the header */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  text-align: center;
+  color: #ffffff; /* White text to contrast the header background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Adds outline effect */
+}
+
+header p {
+  font-size: 1.3em;
+}
+
+/* Logo Styling */
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  width: 50px; /* Adjust size */
+  height: auto;
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Section Styles */
+section {
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for readability */
+}
+
+section h2 {
+  font-size: 2.2em;
+  color: #eaff61; /* Consistent bright coral color */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds outline effect */
+}
+
+section p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+/* Highlighted Text */
+.highlight {
+  font-weight: bold;
+  color: #61ff69; /* Bright coral for emphasis */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Subtle outline for standout effect */
+}
+
+/* Video Links */
+.video-links {
+  list-style: none;
+  padding: 0;
+}
+
+.video-links li {
+  margin: 15px 0;
+}
+
+.video-links a {
+  color: #faff61; /* Bright coral for links */
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.video-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+ul li {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+ul a {
+  color: #81ff61; /* Bright coral for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #bcbcbc; /* Subtle gray for footer text */
+  margin-top: 40px;
+  font-size: 0.9em;
+  background-color: rgba(0, 0, 0, 0.7);
+}
